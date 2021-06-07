@@ -33,7 +33,7 @@ public class ex08 {
         int remsli = totsli % peop;
 
         //output string
-        String outputString = (peop+" people with "+piz+" pizzas ("+sli+"slices)\nEach person gets "+persli+" pieces of pizza.\nThere are "+remsli+" leftover pieces.");
+        String outputString = (peop+" people with "+piz+" pizzas ("+totsli+" slices)\nEach person gets "+persli+" pieces of pizza.\nThere are "+remsli+" leftover pieces.");
 
         //output
         System.out.println(outputString);
